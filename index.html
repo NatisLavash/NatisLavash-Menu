@@ -1,24 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos.css">
-    <title>Natis Lavash</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="icon" href="Imagenes/masa.png">
+  <title>Natis Lavash</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="app.js"></script>
+
 </head>
+
 <body>
   <header>
-    
-  </header>
-  <main>
-    <h1><a href="https://wa.link/d4iysu" className="linkwsp">Hacé tu pedido</a></h1>
-    <!--agregar una imagen -->
-    <img src="Menu/menu.jpeg" alt="Menú">
-    <img src="Menu/explicacion.jpeg" alt="Natis Lavash">
-  </main>
-  <footer>
 
-  </footer>
+    <!--agregar una div con menu, inicio de sesion, registro, informacion flexible-->
+    <div class="menu">
+      
+      <ul>
+        <a href="index.html">Inicio</a>
+        <a href="https://www.instagram.com/natislavash/">Instagram</a>
+        <a href="https://api.whatsapp.com/send?phone=5491121601751">Contacto</a>
+        <!-- <ul><a href="login.html">Iniciar Sesión</a></ul>
+              <ul><a href="registro.html">Registrarse</a></ul> -->
+      </ul>
+    </div>
+  
+    <!--Agregar un botton con link para hacer un pedido -->
+    <div class="boton">
+      <button><a href="https://api.whatsapp.com/send?phone=5491121601751">Hacé tu pedido</a></button>
+    </div>
+  </header>
+      <main>
+
+        <!--agregar una imagen -->
+
+        <img src="Menu/Banner.png" alt="Menú">
+        <div class="ucrania"><img src="Menu/Ucrania.png" alt="Natis Lavash"></div>
+   
+
+        <!--agregar un desplegable con informacion -->
+       <div class="informacion">
+        <div class="item-uno">
+        <details>
+          <summary style="color: brown">¿De qué tamaño y/o altura son las tortas? <br>
+            <!--estilo en linea negrita -->
+            <span style="font-weight: bold">Какого размера и/или высоты торты?</span></summary>
+          <p>🍰 El tamaño principal de la torta es de 22 cm, peso 1,6 kg. Rinde 12-16 porciones.Tambien tenemos porciones individuales. </p>
+        </details>
+        </div>
+        <div class="item-dos">
+        <details>
+          <summary style="color: brown">¿Con cuánta anticipación puedo encargar? <br>
+            <span style="font-weight: bold">Насколько заранее я могу сделать заказ?</span> </summary>
+          <p>Cuanto antes mejor 😄
+            Mínimo 3 días de anticipación.</p>
+        </details>
+      </div>
+      <div class="item-tres">
+        <details>
+          <summary style="color: brown">¿Como ordenar? /Como la puedo comprar? <br>
+            <span style="font-weight: bold">Какого размера и/или высоты торты?</span></summary>
+          <p>Envíeme un mensaje.💛</p>
+        </details>
+      </div>
+        <div class="item-cuatro">
+        <details>
+          <summary style="color: brown">¿Como puedo pagar mi pedido? <br>
+            <span style="font-weight: bold">Как я могу оплатить свой заказ?</span></summary>
+          <p>Pago en efectivo. Mercado pago/transferencia en el momento de la reserva. El envío lo paga el cliente aparte.✨</p>
+        </details>
+        </div>
+        <div class="item-cinco">
+        <details>
+          <summary style="color: brown">¡Necesito la torta más grande! <br>
+            <span style="font-weight: bold">Мне нужен самый большой торт!</span></summary>
+          <p>Esperando tus deseos ✨ Espero tu mensaje 😊
+          </p>
+        </details>
+      </div>
+       </div>
+      </main>
+      <footer>
+        <!--copyright-->
+        <p>© 2022 Natis Lavash. Todos los derechos reservados.</p>
+         <!--agregar footer con redes sociales y copyright-->
+        <ul><a href="https://www.instagram.com/natislavash/">Instagram</a></ul>
+        <a href="https://api.whatsapp.com/send?phone=5491121601751" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+         <!--agregar Dark Mode
+        <body id="body" class="dark-mode">
+          <h1>Dark/Light Mode Switcher</h1>
+           
+          <button type="button" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode">🌛</button>
+          
+          <p>Just press the button above to toggle!</p>-->
+
+          
 </body>
+
 </html>
